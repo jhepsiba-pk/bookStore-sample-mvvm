@@ -183,13 +183,13 @@
 				309FB8FE24EBAC4000767326 /* LaunchScreen.storyboard */,
 				309FB92424EBAE0100767326 /* BookListCell.xib */,
 				309FB94624EBDFEC00767326 /* MSError.swift */,
-				309FB94F24EC3ECD00767326 /* Extensions */,
-				309FB94C24EC2C2B00767326 /* Controllers */,
+				309FB92D24EBBE1400767326 /* Models */,
+				309FB94C24EC2C2B00767326 /* Views */,
+				309FB92C24EBBDF700767326 /* ViewModels */,
 				309FB92E24EBBE2800767326 /* Services */,
 				309FB92724EBBCD900767326 /* Cells */,
-				309FB92D24EBBE1400767326 /* Models */,
-				309FB92C24EBBDF700767326 /* ViewModels */,
 				309FB92B24EBBDE300767326 /* DataSource */,
+				309FB94F24EC3ECD00767326 /* Extensions */,
 				306A33D524ECE18100B13E39 /* Utilities */,
 			);
 			path = BookList;
@@ -257,13 +257,13 @@
 			path = Services;
 			sourceTree = "<group>";
 		};
-		309FB94C24EC2C2B00767326 /* Controllers */ = {
+		309FB94C24EC2C2B00767326 /* Views */ = {
 			isa = PBXGroup;
 			children = (
 				309FB8F724EBAC3E00767326 /* BookListViewController.swift */,
 				309FB94D24EC2C2B00767326 /* BookDetailViewController.swift */,
 			);
-			path = Controllers;
+			path = Views;
 			sourceTree = "<group>";
 		};
 		309FB94F24EC3ECD00767326 /* Extensions */ = {
