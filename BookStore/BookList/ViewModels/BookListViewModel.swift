@@ -36,7 +36,7 @@ class BookListViewModel: NSObject {
 class BookViewModel : NSObject {
     
     var id: String?
-    var name: String
+    var name: String?
     var artistName: String?
     var imageURL: String?
     

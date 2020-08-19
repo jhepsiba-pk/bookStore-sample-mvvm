@@ -34,10 +34,11 @@ class BookListViewController: UIViewController {
         
         self.dataSource = BookListDataSource(cellIdentifier: "BookListCell", items: self.bookListViewModel.bookListing) { cell, vm in
             
-            cell.bookNameLabel.text = vm.name
-            cell.authorLabel.text = vm.artistName
-            cell.loadImage(url: vm.imageURL ?? "")
-            
+            if let name = vm.name, let author = vm.artistName, let imageURL = vm.imageURL{
+                cell.bookNameLabel.text = name
+                cell.authorLabel.text = author
+                cell.loadImage(url: imageURL)
+            }
         }
         
         self.bookListCollectionView.dataSource = self.dataSource
