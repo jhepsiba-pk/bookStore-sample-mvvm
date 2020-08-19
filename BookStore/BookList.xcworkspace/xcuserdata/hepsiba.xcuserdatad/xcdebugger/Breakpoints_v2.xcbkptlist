@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1DC0C4D0-53D7-42E7-93BE-093A6166DA0C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BFCF3796-8896-4424-823C-4E7EA4ABC262"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BookList/Cells/BookListCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "loadImage(url:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BFCF3796-8896-4424-823C-4E7EA4ABC262 - b4ff89ccd1c25223"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BookList.BookListCell.loadImage(url: Swift.String) -&gt; ()"
+                  moduleName = "BookList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hepsiba/Documents/Hepsi/work/Repo/BookList/BookList/Cells/BookListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "389">
+               </Location>
+               <Location
+                  uuid = "BFCF3796-8896-4424-823C-4E7EA4ABC262 - 8ebacd16b7d3452f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in BookList.BookListCell.loadImage(url: Swift.String) -&gt; ()"
+                  moduleName = "BookList"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/hepsiba/Documents/Hepsi/work/Repo/BookList/BookList/Cells/BookListCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "203">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
